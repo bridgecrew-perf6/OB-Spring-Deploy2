@@ -13,7 +13,7 @@ public class HelloController {
     @Value("${app.message}")
     String message;
 
-    @GetMapping("/hola")
+    @GetMapping("/holamundo")
     public String holaMundo(){
         System.out.println(message);
         return "hola mundo, hasta luego";
